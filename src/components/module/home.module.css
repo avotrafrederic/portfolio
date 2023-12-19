@@ -1,0 +1,8 @@
+.home{
+    --tw-bg-opacity: 0.2;
+    background: rgb(30 41 59 / var(--tw-bg-opacity)) url(./../../../public/images/dark-geometric-background-with-copy-space.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
