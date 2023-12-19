@@ -8,8 +8,8 @@ export default function Competance() {
         <section className={styles.home}>
             <div className="container flex flex-col justify-center h-full text-slate-300 px-5">
                 <h1 className='text-4xl md:text-7xl font-semibold'>Skills</h1>
-                <div className="grid grid-cols-2">
-                    <div className='flex flex-wrap text-4xl md:text-7xl gap-5'>
+                <div className="grid grid-cols-1 md:grid-cols-2">
+                    <div className='flex flex-wrap text-6xl md:text-7xl gap-5'>
                         <LiaPython/>
                         <LiaPhp/>
                         <LiaJava/>

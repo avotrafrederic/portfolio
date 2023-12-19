@@ -7,7 +7,7 @@ export default class About extends Component {
     return (
       <React.Fragment>
         <section id="about" className={styles.home}>
-          <div className="container mx-auto grid grid-cols-2 text-slate-300 h-full px-5">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 text-slate-300 h-full px-5">
             
             <div className="h-full flex flex-col justify-center text-justify">
                 <h2 className="text-4xl font-semibold">A propos de moi</h2>

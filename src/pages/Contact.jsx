@@ -21,7 +21,7 @@ export default function Contact() {
   return (
     <React.Fragment>
         <section className={styles.home}>
-            <div className="container mx-auto grid grid-cols-2 h-full text-slate-300">
+            <div className="container mx-auto grid sm:grid-cols-1 md:grid-cols-2 h-full text-slate-300">
                 <div className='h-full flex flex-col justify-center'>
                     <h1 className='text-4xl md:text-7xl font-mono flex items-cente'>Contact</h1>
                     <form ref={form} className='flex flex-col gap-y-1' onSubmit={handleSubmit}>

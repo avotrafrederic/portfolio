@@ -6,7 +6,7 @@ export default function Education() {
       <section className={styles.home}>
         <div className="container flex flex-col h-full justify-center text-slate-300 px-5 gap-5">
           <h1 className="text-4xl font-semibold">Graduation</h1>
-          <div className="grid grid-cols-2">
+          <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex flex-col gap-y-2">
               <div>
                 <h2 className="text-3xl font-mono flex items-center">Licence <span className="ml-auto  text-xl">2022</span></h2>
